@@ -26,6 +26,8 @@ p, li {
 	color: #777777;
 	}
 
+
+
 /*HEADING AREA*/
 /* I needed to place the styling for the header tag before .topWrapper, because the class topWrapper was overwriting the header tag's styling! */
 header {
@@ -49,7 +51,7 @@ header {
 	width: 960px;
 	overflow: auto;
 	margin: 0 auto;
-}
+	}
 
 
 nav {
@@ -79,7 +81,7 @@ li a {
 	width: 960px;
 	margin: 30px auto;
 	overflow: auto;
-}
+	}
 
 .content h1 {
 	color: #4aaaa5;
@@ -88,6 +90,14 @@ li a {
 	}
 
 /*MAIN SECTION AREA*/
+#contactMe {
+	width: 580px;
+	float: left;
+	background-color: #ffffff;
+	padding: 30px;
+	border: 1px solid #cccccc;
+	}
+
 #aboutMe {
 	width: 580px;
 	float: left;
@@ -101,7 +111,35 @@ li a {
 	margin: 0 20px 10px 0;
 	border-color: 1px solid #cccccc;
 	width: 200px;
+	}
+
+#myPortfolio {
+	width: 580px;
+	float: left;
+	background-color: #ffffff;
+	padding: 30px;
+	border: 1px solid #cccccc;
+	}
+
+input, textarea {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: #ccc;
+    font-size: 14px;
 }
+
+#submitBtn {
+	background-color: #4aaaa5;
+	padding: 10px;
+	width: 100px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 18px;
+	border: none;
+	cursor: pointer;
+	}
 
 /* ASIDE SECTION AREA*/
 aside{
@@ -134,6 +172,10 @@ aside h2 {
   	bottom: 0;
   	border-top: 7px solid #4aaaa5;
   	text-align: center;
-  	color: #ffffff;
+  }
+
+  #footerText{
+  	 color: #cccccc;
   	font-size: 12px;
+  	padding: 20px;
   }
