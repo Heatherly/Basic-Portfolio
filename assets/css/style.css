@@ -7,71 +7,133 @@ body {
 	font-size: 14px;
 	color: #777777;
 	}
+/*GLOABAL TEXT STYLING */
+h1 {
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-size: 26px;
+	}
 
+h2 {
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-size: 16pt;
+	color: #4aaaa5;
+	}
+
+p, li {
+	font-family:  'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	line-height: 1.5;
+	font-size: 16px;
+	color: #777777;
+	}
+
+/*HEADING AREA*/
+/* I needed to place the styling for the header tag before .topWrapper, because the class topWrapper was overwriting the header tag's styling! */
+header {
+	background-color: #4aaaa5;
+	padding: 10px;
+	width: 220px;
+	float: left;
+	text-align: center;
+	color: #ffffff;
+	}
 
 .topWrapper {
 	background-color: #ffffff;
-	padding: 20px 20px 0 20px;
+	overflow: auto;
+	margin: 0 auto;
+	}
+
+
+.topWrapper #header{
+	background-color: #ffffff;
+	width: 960px;
 	overflow: auto;
 	margin: 0 auto;
 }
 
-header {
-	background-color: #4aaaa5;
-	padding: 10px;
-	margin-left: 162px;
-	width: 200px;
-	float: left;
-	text-align: center;
-	color: #fff;
-	}
 
 nav {
 	float: right;
-	padding-top: 30px;
-	margin-right: 164px;
+	margin-top: 30px;
+	}
 
-}
-
-  li {
+li {
     display: inline;
     padding:10px;
     list-style: none;
     }
-
+  
 li a {
     text-decoration: none;
-    color: #777;
+    color: #777777;
     }
 
 .topBorder {
-	border: 1px solid #777;
+	border: 1px solid #cccccc;
 	margin: 0 auto;
-}
+	}
 
+/*PAGE CONTENT*/
 .content {
 	clear: both;
 	width: 960px;
-	margin: 0px auto;
+	margin: 30px auto;
 	overflow: auto;
 }
 
+.content h1 {
+	color: #4aaaa5;
+	padding-bottom: 20px;
+	border-bottom: 3px solid #cccccc;
+	}
+
+/*MAIN SECTION AREA*/
 #aboutMe {
-	width: 60%;
+	width: 580px;
 	float: left;
-		background-color: #ffffff;
-		padding: 20px
+	background-color: #ffffff;
+	padding: 30px;
+	border: 1px solid #cccccc;
+	}
+
+.profilePic {
+	float: left;
+	margin: 0 20px 10px 0;
+	border-color: 1px solid #cccccc;
+	width: 200px;
 }
 
+/* ASIDE SECTION AREA*/
 aside{
-	float: left;
-	width: 30%;
-	padding: 20px;
+	float: right;
+	width: 230px;
+	padding: 30px;
+	margin: 0px;
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
 }
+
+aside h2 {
+	color: #4aaaa5;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #cccccc;
+}
+.icon {
+	width: 60px;
+	border-radius: 5px;
+	float: left;
+	margin-right: 10px;
+}
+
+/*FOOTER AREA*/
   footer {
   	width: 100%;
   	background-color: #666666;
   	height: 100px;
   	position: fixed;
   	bottom: 0;
+  	border-top: 7px solid #4aaaa5;
+  	text-align: center;
+  	color: #ffffff;
+  	font-size: 12px;
   }
