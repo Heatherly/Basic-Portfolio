@@ -1,2 +1,1 @@
-# Basic-Portfolio
-portfolio website for myself
+# Heatherly.github.io
